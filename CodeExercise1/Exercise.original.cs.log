@@ -1,0 +1,20 @@
+using System;
+using System.Collections.Generic;
+
+/* This is the original code */
+namespace Coding.Exercise
+{
+    public class Exercise
+    {
+        // TODO: fix this method - remove boxing & unboxing, and return correct result
+        public static object GetCharacterCount(string name)
+        {
+            var result = new Dictionary<object, object>();
+            foreach (char c in name)
+            {
+                result[c] = 1;
+            }
+            return result;
+        }
+    }
+}

@@ -1,0 +1,7 @@
+## Replace digits with words in a string
+
+Write a method ReplaceDigits in the class Exercise that expects a string parameter called sentence and does the following:    
+For every occurrence of the digits '0', '1', '2', '3', '4', '5', '6', '7', '8', and '9', replace them with the words 'zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', eight', or 'nine' respectively. Return the modified sentence with all digits replaced, and insert spaces where appropriate.    
+So for the input string "4 score and 7 years ago, 8 men had the same PIN code: 6571", I expect the following output:    
+"four score and seven years ago, eight men had the same PIN code: six five seven one"    
+The exercise.cs file contains a number of bugs, and it is very inefficient in terms of memory use. Your task is to fix the bugs, and refactor the code to minimize the number of string objects created on the heap.
